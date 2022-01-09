@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="Página personal del videógrafo y fotógrafo Lautaro Ferrandi. En ella se puede encontrar todo su portfolio, enlaces a sus redes sociales oficiales y un poco de su historia personal."
+    />
+    <meta name="keywords" content="films, photos, videos, images" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impala Records</title>
+    <link rel="shortcut icon" type="image" href="https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/293673ac3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bigContainer">
+      <!-- NAVAR START -->
+      <nav
+        id="navbar"
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-warning"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Impala Records</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul id="navList" class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#records">Records</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#aboutus">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#contactus">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <div class="cartButton">
+                  <span class="navIcon">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
+                  <div class="cartItems">0</div>
+                </div>
+                <p id="log"></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CONTENT START -->
+      <header class="hero">
+        <div id="home" class="intro">
+          <h1>Welcome to Impala Records</h1>
+        </div>
+      </header>
+
+      <!-- FIRST SECTION -->
+      <div id="products" class="seccion">
+        <h1>Records</h1>
+        <div id="records" class="records">
+          <div class="row">
+              <div id="card-container"></div>
+        </div>
+      </div>
+      </div>
+
+      <!-- SECOND SECTION -->
+      <div class="seccion">
+        <div id="aboutus" class="aboutUs">
+          <h1>About Us</h1>
+          <div class="row">
+            <div class="col">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                cupiditate quisquam neque? Quod eaque quam repudiandae magnam
+                recusandae, molestias fugit eos vero, eveniet voluptates in
+                accusamus eum nemo quibusdam. Porro? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Qui cupiditate impedit vel
+                consectetur repudiandae. Eveniet ducimus expedita nam cupiditate
+                pariatur accusantium rem! Ipsam doloremque expedita autem nisi
+                amet ducimus eius?
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                cupiditate quisquam neque? Quod eaque quam repudiandae magnam
+                recusandae, molestias fugit eos vero, eveniet voluptates in
+                accusamus eum nemo quibusdam. Porro? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Qui cupiditate impedit vel
+                consectetur repudiandae. Eveniet ducimus expedita nam cupiditate
+                pariatur accusantium rem! Ipsam doloremque expedita autem nisi
+                amet ducimus eius?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- THIRD SECTION -->
+      <div id="contactus" class="seccion">
+        <div class="contactUs">
+          <h1>Contact Us</h1>
+          <div class="row">
+            <div class="col">
+              <form class="form-horizontal" action="/action_page.php">
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="email"
+                    >Email:</label
+                  >
+                  <div class="col-sm-10">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Enter email"
+                    />
+                  </div>
+                </div>
+                <br />
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="pwd"
+                    >Comment:</label
+                  >
+                  <div class="col-sm-10">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="pwd"
+                      placeholder="Enter comment"
+                    />
+                  </div>
+                </div>
+                <div class="form-group"></div>
+                <br />
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="col"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer
+        class="text-center text-lg-start text-white"
+        style="background-color: #272525"
+      >
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-between p-4"
+          style="background-color: #ffc108"
+        >
+          <!-- Left -->
+          <div class="me-5">
+            <span class="text-black"
+              >Get connected with us on social networks:</span
+            >
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold">Impala Records</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #ffc108; height: 2px"
+                />
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Products</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #ffc108; height: 2px"
+                />
+                <p>
+                  <a href="#!" class="text-white">Discos</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Merchandising</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Equipos</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #ffc108; height: 2px"
+                />
+                <p>
+                  <a href="#!" class="text-white">Your Account</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Become an Affiliate</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Shipping Rates</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #ffc108; height: 2px"
+                />
+                <p><i class="fa fa-home mr-3"></i> Buenos Aires, AR</p>
+                <p>
+                  <i class="fa fa-envelope mr-3"></i> impalarecords@vmail.com
+                </p>
+                <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2021 Copyright:
+          <a class="text-white" href="#">lautaroferrandi</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+
+    <!-- Cart PopUp -->
+    <div class="popUp">
+      <span id="closeButton">
+        <i fas class="fa fa-window-close" aria-hidden="true"></i>
+         </span>
+      <h1>Cart</h1>
+      <div class="cartContent">
+        <!-- cart Item -->
+       
+          <!--  end of cart Item -->
+      </div>
+          <div class="cartFooter">
+            <h3>Total $ <span class="cartTotal">0</span> </h3>
+            <button class="comprarBtn">BUY</button>
+            <button class="clearCartBtn">CLEAR CART</button>
+            <br>
+        </div>
+      
+    </div>
+      
+<!--  end of Cart PopUp -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="NavScroll.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+
+    [
+        {
+            "id": "1",
+            "title": "Innerspeaker",
+            "Price": 100,
+            "img": "https://img.discogs.com/vXs09GMxHzOugRyYyN2M-P_p3WI=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2402720-1547448092-2132.jpeg.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Lonerism",
+            "Price": 200,
+            "img": "https://m.media-amazon.com/images/I/A1Hxn7+in3L._SL1500_.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Currents",
+            "Price": 300,
+            "img": "https://m.media-amazon.com/images/I/91dTLHSQdkL._SY355_.jpg"
+        },
+        {
+            "id": "4",
+            "title": "The Slow Rush",
+            "Price": 400,
+            "img": "https://m.media-amazon.com/images/I/71B-s-1n5iL._SL1400_.jpg"
+        },
+        {
+            "id": "5",
+            "title": "Live Versions",
+            "Price": 500,
+            "img": "https://img.discogs.com/zJ6ENddbYTL9oJCMUDR5IEp-Sv4=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6675489-1424382710-4403.jpeg.jpg"
+        }
+    ]
