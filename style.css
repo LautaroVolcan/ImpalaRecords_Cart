@@ -112,7 +112,7 @@ html {
   margin-bottom: 1rem;
 }
 
-#cartButton {
+.cartButton {
   cursor: pointer;
 }
 .comprarBtn{
@@ -164,8 +164,9 @@ html {
 
 
  /* -------------sections------------ */
+ 
 .seccion {
-  position: static;
+  position: relative;
   background-color: #ff5258;
   width: 100%;
   height: 100vh;
@@ -188,6 +189,7 @@ html {
 }
 /* -------------------records----------------- */
 .records {
+
   width: 90%;
   height: 100vh;
   margin: auto;
@@ -236,7 +238,6 @@ html {
 
 /* -------------------AboutUs----------------- */
 .aboutUs {
-  position: static;
   width: 60%;
   height: 100vh;
   margin: auto;
@@ -264,3 +265,16 @@ html {
   width: 60%;
   height: 20vh;
 }
+.submitbtn {
+  position: relative;
+  padding: 5px 20px;
+  margin-top: 20px;
+  margin-left: 20%;
+  display: inline-block;
+  border: 3px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #111;
+  cursor: pointer;
+}
+
